@@ -1,0 +1,63 @@
+.top {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    'top-header top-header top-box-a'
+    'top-header top-header top-box-b'
+    'top-header top-header top-box-c';
+
+  &-header {
+    grid-area: top-header;
+    min-height: 400px;
+    background: url(../img/mid.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    color: $light-color;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    box-shadow: $shadow;
+    
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin-top: 0;
+    }
+
+    a {
+      width: 100px;
+      text-align: center;
+    }
+  }
+
+  &-box {
+    background-color: $primary-color;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    box-shadow: $shadow;
+
+    .price {
+      font-size: 1.2rem;
+    }
+  }
+
+  &-box-a {
+    grid-area: top-box-a;
+  }
+
+  &-box-b {
+    grid-area: top-box-b;
+  }
+
+  &-box-c {
+    grid-area: top-box-c;
+  }
+}
