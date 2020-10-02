@@ -1,0 +1,26 @@
+.nav-top {
+  ul {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    background-color: $primary-color;
+    color: $dark-color;
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    box-shadow: $shadow;
+  }
+
+  a:hover {
+    background-color: $dark-color;
+    color: $light-color;
+  }
+}
