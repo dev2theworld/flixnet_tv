@@ -61,3 +61,32 @@
     grid-area: top-box-c;
   }
 }
+
+.middle {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+
+  &-box {
+    background-color: $primary-color;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: $shadow;
+  }
+}
+
+.bottom {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem;
+  background-color: $primary-color;
+  box-shadow: $shadow;
+}
+
+footer {
+  background-color: $dark-color;
+  color: $light-color;
+  margin-top: 2rem;
+  text-align: center;
+}
