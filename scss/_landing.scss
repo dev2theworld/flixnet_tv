@@ -5,7 +5,7 @@
 
   &-header {
     min-height: 500px;
-    background: url(../img/mid-1.jpg);
+    background: url(../img/main.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -14,24 +14,28 @@
     flex-direction: column;
     box-shadow: $shadow;
     
-    h1 {
-      font-size: 4rem;
-      margin-top: -1rem;
-      margin-bottom: 0;
+    &-wrapper {
+      background-color: $dark-color;
+      opacity: 0.7;
       margin-left: 600px;
-      
-    }
+      height: 450px;
+      padding: 1.5rem;
 
-    p {
-      font-size: 1.3rem;
-      margin-top: 0;
-      margin-left: 600px;
-    }
-
-    a {
-      width: 100px;
-      margin-left: 600px;
-      text-align: center;
+      h1 {
+        font-size: 4rem;
+        margin-top: 0rem;
+        margin-bottom: 0;
+      }
+  
+      p {
+        font-size: 1.3rem;
+      }
+  
+      a {
+        margin-top: 12rem;
+        width: 100px;
+        text-align: center;
+      }
     }
   }
 

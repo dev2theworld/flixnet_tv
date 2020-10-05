@@ -14,7 +14,7 @@ body {
 }
 
 .btn {
-  background-color: #333;
+  background-color: #d95323;
   color: #fff;
   text-decoration: none;
   padding: 0.6rem 1.3rem;
@@ -69,7 +69,7 @@ img {
 
 .top-header {
   min-height: 500px;
-  background: url(../img/mid-1.jpg);
+  background: url(../img/main.jpg);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -85,22 +85,27 @@ img {
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-.top-header h1 {
+.top-header-wrapper {
+  background-color: #333;
+  opacity: 0.7;
+  margin-left: 600px;
+  height: 450px;
+  padding: 1.5rem;
+}
+
+.top-header-wrapper h1 {
   font-size: 4rem;
-  margin-top: -1rem;
+  margin-top: 0rem;
   margin-bottom: 0;
-  margin-left: 600px;
 }
 
-.top-header p {
+.top-header-wrapper p {
   font-size: 1.3rem;
-  margin-top: 0;
-  margin-left: 600px;
 }
 
-.top-header a {
+.top-header-wrapper a {
+  margin-top: 12rem;
   width: 100px;
-  margin-left: 600px;
   text-align: center;
 }
 
