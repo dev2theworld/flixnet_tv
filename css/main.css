@@ -257,4 +257,44 @@ footer {
   text-align: center;
   letter-spacing: 2px;
 }
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer .logo {
+  color: #fc6453;
+}
+
+footer .footer .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer .form input {
+  padding: 0.5rem;
+}
+
+footer .footer .form textarea {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer .footer .form span:hover {
+  cursor: pointer;
+  color: #fc6453;
+}
 /*# sourceMappingURL=main.css.map */
