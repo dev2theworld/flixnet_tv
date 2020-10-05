@@ -23,7 +23,7 @@ body {
 
 .btn:hover {
   transform: scale(1.1);
-  opacity: 1;
+  box-shadow: $shadow;
 }
 
 img {

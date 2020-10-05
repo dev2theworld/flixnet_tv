@@ -39,6 +39,7 @@
   background-color: $primary-color;
   width: 100%;
   text-align: center;
+  box-shadow: $shadow;
   
   &-box {
     border-bottom: 1px solid $dark-color;
@@ -56,6 +57,7 @@
     &:hover {
       height: 260px;
       cursor: pointer;
+      box-shadow: $shadow;
 
       h3 {
         color: lighten($color: $dark-color, $amount: 25%);
@@ -72,34 +74,6 @@
 
     &:nth-child(3) {
       border: none;
-    }
-  }
-}
-
-.boxes-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  &-single {
-    background-color: $primary-color;
-    width: 29%;
-    padding: 1rem 1rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: $shadow;
-    
-    h4 {
-      letter-spacing: 1.5px;
-      border-bottom: 1px solid $dark-color;
-    }
-
-    .price {
-      color: lighten($color: $dark-color, $amount: 10%);
-      margin-top: 0;
-      font-size: 1.5rem;
     }
   }
 }
@@ -124,6 +98,50 @@
   padding: 3rem;
   background-color: $primary-color;
   box-shadow: $shadow;
+
+  img {
+    box-shadow: $shadow;
+  }
+
+  .btn {
+    box-shadow: $shadow;
+  }
+}
+
+.bottom-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-single {
+    background-color: $primary-color;
+    width: 29%;
+    padding: 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $shadow;
+    
+    h4 {
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid $dark-color;
+    }
+
+    .price {
+      color: lighten($color: $dark-color, $amount: 10%);
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    &-b {
+      background-color: darken($color: $primary-color, $amount: 10%);
+    }
+
+    &-c {
+      background-color: darken($color: $primary-color, $amount: 20%);
+    }
+  }
 }
 
 footer {
@@ -131,4 +149,5 @@ footer {
   color: $light-color;
   margin-top: 2rem;
   text-align: center;
+  letter-spacing: 2px;
 }
