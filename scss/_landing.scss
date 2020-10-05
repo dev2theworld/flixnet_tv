@@ -33,6 +33,49 @@
   }
 }
 
+.offer {
+  display: flex;
+  flex-direction: column;
+  background-color: $primary-color;
+  width: 100%;
+  text-align: center;
+  
+  &-box {
+    border-bottom: 1px solid $dark-color;
+    padding: 1rem 2rem 2rem;
+    height: 35px;
+
+    p {
+      opacity: 0;
+    }
+
+    a {
+      opacity: 0;
+    }
+
+    &:hover {
+      height: 260px;
+      cursor: pointer;
+
+      h3 {
+        color: lighten($color: $dark-color, $amount: 25%);
+      }
+
+      p {
+        opacity: 1;
+      }
+  
+      a {
+        opacity: 1;
+      }
+    }
+
+    &:nth-child(3) {
+      border: none;
+    }
+  }
+}
+
 .boxes-top {
   display: flex;
   align-items: center;

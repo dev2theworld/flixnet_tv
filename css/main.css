@@ -56,8 +56,8 @@ img {
   text-align: center;
   font-size: 1.1rem;
   text-transform: uppercase;
-  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .nav-top a:hover {
@@ -80,8 +80,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .top-header {
@@ -105,6 +105,54 @@ img {
 .top-header a {
   width: 100px;
   text-align: center;
+}
+
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ddd;
+  width: 100%;
+  text-align: center;
+}
+
+.offer-box {
+  border-bottom: 1px solid #333;
+  padding: 1rem 2rem 2rem;
+  height: 35px;
+}
+
+.offer-box p {
+  opacity: 0;
+}
+
+.offer-box a {
+  opacity: 0;
+}
+
+.offer-box:hover {
+  height: 260px;
+  cursor: pointer;
+}
+
+.offer-box:hover h3 {
+  color: #737373;
+}
+
+.offer-box:hover p {
+  opacity: 1;
+}
+
+.offer-box:hover a {
+  opacity: 1;
+}
+
+.offer-box:nth-child(3) {
+  border: none;
 }
 
 .boxes-top {
@@ -136,8 +184,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .boxes-top-single h4 {
@@ -163,8 +211,8 @@ img {
   background-color: #ddd;
   text-align: center;
   padding: 1.5rem 2rem;
-  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .bottom {
@@ -175,8 +223,8 @@ img {
       grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
   background-color: #ddd;
-  -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-          box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 footer {
