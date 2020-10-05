@@ -6,19 +6,25 @@ body {
 }
 
 body {
-  background-color: #ccc;
+  background-color: #fc6453;
   color: #333;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Audiowide', cursive;
   line-height: 1.5;
   margin: 30px 50px;
 }
 
 .btn {
-  background-color: #d95323;
+  background-color: #cc1804;
   color: #fff;
   text-decoration: none;
   padding: 0.6rem 1.3rem;
   border: 0;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
 }
 
 img {
@@ -55,8 +61,9 @@ img {
 }
 
 .nav-top a:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: #febeb7;
+  color: white;
+  font-weight: bold;
 }
 
 .top {
@@ -79,15 +86,15 @@ img {
 
 .top-header {
   background-color: #333;
-  opacity: 0.7;
+  opacity: 0.9;
   margin-left: 600px;
   height: 450px;
   padding: 1.5rem;
 }
 
 .top-header h1 {
-  font-size: 4rem;
-  margin-top: 0rem;
+  font-size: 3rem;
+  margin-top: 0.75rem;
   margin-bottom: 0;
 }
 
@@ -96,7 +103,6 @@ img {
 }
 
 .top-header a {
-  margin-top: 12rem;
   width: 100px;
   text-align: center;
 }
@@ -134,7 +140,13 @@ img {
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+.boxes-top-single h4 {
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #333;
+}
+
 .boxes-top-single .price {
+  color: #4d4d4d;
   margin-top: 0;
   font-size: 1.5rem;
 }

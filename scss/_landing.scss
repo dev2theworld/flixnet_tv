@@ -11,14 +11,14 @@
 
   &-header {
     background-color: $dark-color;
-    opacity: 0.7;
+    opacity: 0.9;
     margin-left: 600px;
     height: 450px;
     padding: 1.5rem;
 
     h1 {
-      font-size: 4rem;
-      margin-top: 0rem;
+      font-size: 3rem;
+      margin-top: 0.75rem;
       margin-bottom: 0;
     }
 
@@ -27,7 +27,6 @@
     }
 
     a {
-      margin-top: 12rem;
       width: 100px;
       text-align: center;
     }
@@ -48,8 +47,14 @@
     justify-content: center;
     align-items: center;
     box-shadow: $shadow;
+    
+    h4 {
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid $dark-color;
+    }
 
     .price {
+      color: lighten($color: $dark-color, $amount: 10%);
       margin-top: 0;
       font-size: 1.5rem;
     }

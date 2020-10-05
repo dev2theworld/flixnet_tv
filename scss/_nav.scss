@@ -20,7 +20,8 @@
   }
 
   a:hover {
-    background-color: $dark-color;
-    color: $light-color;
+    background-color: lighten($color: $secondary-color, $amount: 20%);
+    color: lighten($color: $light-color, $amount: 20%);
+    font-weight: bold;
   }
 }
