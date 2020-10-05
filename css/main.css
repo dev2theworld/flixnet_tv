@@ -59,14 +59,6 @@ img {
   color: #fff;
 }
 
-.top {
-  display: -ms-grid;
-  display: grid;
-  gap: 20px;
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
-}
-
 .top-header {
   min-height: 500px;
   background: url(../img/main.jpg);

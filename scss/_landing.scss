@@ -1,7 +1,5 @@
 .top {
-  display: grid;
-  gap: 20px;
-  grid-template-rows: repeat(2, 1fr);
+  
 
   &-header {
     min-height: 500px;
