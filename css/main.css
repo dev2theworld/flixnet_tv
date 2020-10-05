@@ -63,17 +63,13 @@ img {
   display: -ms-grid;
   display: grid;
   gap: 20px;
-      grid-template-areas: 'top-header top-header top-box-a' 'top-header top-header top-box-b' 'top-header top-header top-box-c';
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
 }
 
 .top-header {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: top-header;
-  min-height: 400px;
-  background: url(../img/mid.jpg);
+  min-height: 500px;
+  background: url(../img/mid-1.jpg);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -85,38 +81,44 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 .top-header h1 {
   font-size: 4rem;
+  margin-top: -1rem;
   margin-bottom: 0;
+  margin-left: 600px;
 }
 
 .top-header p {
   font-size: 1.3rem;
   margin-top: 0;
+  margin-left: 600px;
 }
 
 .top-header a {
   width: 100px;
+  margin-left: 600px;
   text-align: center;
+}
+
+.top-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-box {
   background-color: #ddd;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 25%;
   padding: 1.5rem;
   -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
           box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -124,24 +126,6 @@ img {
 
 .top-box .price {
   font-size: 1.2rem;
-}
-
-.top-box-a {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: top-box-a;
-}
-
-.top-box-b {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: top-box-b;
-}
-
-.top-box-c {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-  grid-area: top-box-c;
 }
 
 .middle {

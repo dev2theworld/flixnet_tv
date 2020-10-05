@@ -1,64 +1,55 @@
 .top {
   display: grid;
   gap: 20px;
-  grid-template-areas: 
-    'top-header top-header top-box-a'
-    'top-header top-header top-box-b'
-    'top-header top-header top-box-c';
+  grid-template-rows: repeat(2, 1fr);
 
   &-header {
-    grid-area: top-header;
-    min-height: 400px;
-    background: url(../img/mid.jpg);
+    min-height: 500px;
+    background: url(../img/mid-1.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
     color: $light-color;
     display: flex;
     flex-direction: column;
-    
-    justify-content: center;
     box-shadow: $shadow;
     
     h1 {
       font-size: 4rem;
+      margin-top: -1rem;
       margin-bottom: 0;
+      margin-left: 600px;
+      
     }
 
     p {
       font-size: 1.3rem;
       margin-top: 0;
+      margin-left: 600px;
     }
 
     a {
       width: 100px;
+      margin-left: 600px;
       text-align: center;
     }
   }
 
+  &-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   &-box {
     background-color: $primary-color;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    width: 25%;
     padding: 1.5rem;
     box-shadow: $shadow;
 
     .price {
       font-size: 1.2rem;
     }
-  }
-
-  &-box-a {
-    grid-area: top-box-a;
-  }
-
-  &-box-b {
-    grid-area: top-box-b;
-  }
-
-  &-box-c {
-    grid-area: top-box-c;
   }
 }
 
