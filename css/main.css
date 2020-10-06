@@ -165,6 +165,48 @@ img {
   padding: 1rem 2rem 2rem;
 }
 
+.offer-full i.fas {
+  color: #a64e23;
+}
+
+.offer-full i.fas.silver {
+  color: silver;
+}
+
+.offer-full i.fas.gold {
+  color: gold;
+}
+
+.offer-full .darker-bg {
+  background-color: #d0d0d0;
+}
+
+.offer-full ul {
+  list-style: none;
+}
+
+.offer-full ul li {
+  color: #e51b04;
+  background-color: #f7f7f7;
+  width: 300px;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.offer-full .premium {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.offer-full .maximum {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
 .middle {
   display: -ms-grid;
   display: grid;
