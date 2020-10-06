@@ -34,27 +34,30 @@
           <input type="text">
         </div>
         <div class="buy-form-adress">
-          <p>Street</p>
-          <input type="text">
-          <p>City</p>
-          <input type="text">
-          <p>Code Area</p>
-          <input type="text">
-          <p>Phone</p>
-          <input type="text">
+          <div class="part-1">
+            <p>Street</p>
+            <input type="text">
+            <p>City</p>
+            <input type="text">
+          </div>
+          <div class="part-2">
+            <p>Code Area</p>
+            <input type="text">
+            <p>Phone</p>
+            <input type="text">
+          </div>
         </div>
-        <div class="buy-form-checkbox">
-          <p>Click checkbox if it's the same adress set before</p>
-          <input type="checkbox" name="" id="">
-          <p>Otherwise enter shipping adress below</p>
-        </div>
-        <div class="buy-form-shipping">
-          <p>Street</p>
-          <input type="text">
-          <p>City</p>
-          <input type="text">
-          <p>Code Area</p>
-          <input type="text">
+        <h3>Choose Your Payment Type</h3>
+        <div class="buy-form-payment">
+          <p>Credit Card Type</p>
+          <select name="cards" id="cards">
+            <option value="mastercard">Master Card</option>
+            <option value="visa">Visa</option>
+          </select>
+          <p>Card number</p>
+          <input type="number" name="cardnumber" id="cardnumber">
+          <p>Security Code</p>
+          <input type="number" name="security" id="security">
         </div>
       </form>
     </section>

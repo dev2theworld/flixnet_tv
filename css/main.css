@@ -356,6 +356,8 @@ footer .footer .form span:hover {
 .buy {
   background-color: #ddd;
   text-align: center;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .buy-header {
@@ -390,6 +392,7 @@ footer .footer .form span:hover {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 2rem;
+  width: 100%;
 }
 
 .buy-form h4 {
@@ -400,31 +403,78 @@ footer .footer .form span:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-bottom: 1rem;
+  width: 80%;
+}
+
+.buy-form-names input {
+  width: 30%;
+  height: 5vh;
 }
 
 .buy-form-adress {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-bottom: 1rem;
+  width: 90%;
 }
 
-.buy-form-checkbox {
+.buy-form-adress input {
+  width: 80%;
+  height: 5vh;
+  margin: 1rem;
+}
+
+.buy-form-adress .part-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.buy-form-shipping {
+.buy-form-adress .part-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buy-form h3 {
   padding-bottom: 1rem;
+}
+
+.buy-form-payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+  width: 90%;
+}
+
+.buy-form-payment select {
+  width: 20%;
+  height: 5vh;
+}
+
+.buy-form-payment input {
+  width: 20%;
+  height: 5vh;
 }
 /*# sourceMappingURL=main.css.map */
