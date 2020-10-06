@@ -96,9 +96,15 @@
     .darker-bg {
       background-color: darken($color: $primary-color, $amount: 5%);
     }
+
+    .wide {
+      width: 90%;
+      margin: auto;
+    }
     
     ul {
       list-style: none;
+      margin-bottom: 2rem;
 
       li {
         color: darken($color: $secondary-color, $amount: 20%);
@@ -110,13 +116,19 @@
     }
 
     .premium {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      
+      &-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     .maximum {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      
+      &-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
   }
 }

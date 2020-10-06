@@ -181,8 +181,14 @@ img {
   background-color: #d0d0d0;
 }
 
+.offer-full .wide {
+  width: 90%;
+  margin: auto;
+}
+
 .offer-full ul {
   list-style: none;
+  margin-bottom: 2rem;
 }
 
 .offer-full ul li {
@@ -193,14 +199,14 @@ img {
   margin: auto;
 }
 
-.offer-full .premium {
+.offer-full .premium-list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
 }
 
-.offer-full .maximum {
+.offer-full .maximum-list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
