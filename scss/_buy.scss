@@ -1,0 +1,54 @@
+.buy {
+  background-color: $primary-color;
+  text-align: center;
+
+  &-header {
+    width: 30%;
+    margin: auto;
+    padding-top: 1rem;
+
+    h3 {
+      letter-spacing: 1.5px;
+      border-bottom: 1px solid $dark-color;
+    }
+  
+    .price {
+      color: lighten($color: $dark-color, $amount: 10%);
+      font-size: 1.5rem;
+      border-bottom: 1px solid $dark-color;
+    }
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+    h4 {
+      padding-bottom: 1rem;
+    }
+
+    &-names {
+      display: flex;
+      padding-bottom: 1rem;
+    }
+
+    &-adress {
+      display: flex;
+      padding-bottom: 1rem;
+    }
+
+    &-checkbox {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 1rem;
+    }
+
+    &-shipping {
+      display: flex;
+      padding-bottom: 1rem;
+    }
+  }
+}

@@ -81,18 +81,6 @@
     border-bottom: 1px solid $dark-color;
     padding: 1rem 2rem 2rem;
 
-    i.fas {
-      color: #a64e23;
-    }
-
-    i.fas.silver {
-      color: silver;
-    }
-
-    i.fas.gold {
-      color: gold;
-    }
-
     .darker-bg {
       background-color: darken($color: $primary-color, $amount: 5%);
     }

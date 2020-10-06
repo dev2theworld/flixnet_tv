@@ -38,6 +38,18 @@ img {
   gap: 20px;
 }
 
+i.fas {
+  color: #a64e23;
+}
+
+i.fas.silver {
+  color: silver;
+}
+
+i.fas.gold {
+  color: gold;
+}
+
 .nav-top ul {
   display: -ms-grid;
   display: grid;
@@ -163,18 +175,6 @@ img {
 .offer-full {
   border-bottom: 1px solid #333;
   padding: 1rem 2rem 2rem;
-}
-
-.offer-full i.fas {
-  color: #a64e23;
-}
-
-.offer-full i.fas.silver {
-  color: silver;
-}
-
-.offer-full i.fas.gold {
-  color: gold;
 }
 
 .offer-full .darker-bg {
@@ -351,5 +351,80 @@ footer .footer .form textarea {
 footer .footer .form span:hover {
   cursor: pointer;
   color: #fc6453;
+}
+
+.buy {
+  background-color: #ddd;
+  text-align: center;
+}
+
+.buy-header {
+  width: 30%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.buy-header h3 {
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid #333;
+}
+
+.buy-header .price {
+  color: #4d4d4d;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.buy-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+}
+
+.buy-form h4 {
+  padding-bottom: 1rem;
+}
+
+.buy-form-names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.buy-form-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.buy-form-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.buy-form-shipping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
