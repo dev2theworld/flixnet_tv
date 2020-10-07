@@ -1,4 +1,31 @@
 .about {
   background-color: $dark-color;
   color: $light-color;
+  height: 80vh;
+
+  &-header {
+    padding: 2rem;
+    text-align: center;
+
+    h1 {
+      font-size: 4rem;
+      margin: 0.25rem 0 0;
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-weight: lighter;
+      margin-top: 0;
+      margin-bottom: 3rem;
+      color: lighten($color: $secondary-color, $amount: 10%);
+    }
+
+    i.fas {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
 }

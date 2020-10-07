@@ -42,6 +42,10 @@ i.fas.gold {
   color: gold;
 }
 
+.logo {
+  color: #eda324;
+}
+
 .nav-top ul {
   display: -ms-grid;
   display: grid;
@@ -317,10 +321,6 @@ footer .footer {
           align-items: center;
 }
 
-footer .footer .logo {
-  color: #fc6453;
-}
-
 footer .footer .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,5 +473,32 @@ footer .footer .form span:hover {
 .about {
   background-color: #333;
   color: #fff;
+  height: 80vh;
+}
+
+.about-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 4rem;
+  margin: 0.25rem 0 0;
+}
+
+.about-header h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color: #fd9185;
+}
+
+.about-header i.fas {
+  margin-bottom: 1rem;
+}
+
+.about-header p {
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 $primary-color: #ddd;
 $secondary-color: #fc6453;
+$logo-color: #eda324;
 $dark-color: #333;
 $light-color: #fff;
 $btn-primary: darken(#fc6453, 25%);
@@ -37,4 +38,8 @@ img {
 
 i.fas.gold {
   color: gold;
+}
+
+.logo {
+  color: $logo-color;
 }
