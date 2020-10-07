@@ -501,4 +501,166 @@ footer .footer .form span:hover {
 .about-header p {
   font-size: 1.3rem;
 }
+
+.library {
+  background: url(../img/hand.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 80vh;
+}
+
+.library-header {
+  background-color: #333;
+  opacity: 0.6;
+  width: 100%;
+  height: 97%;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.library-header h1 {
+  font-size: 4rem;
+  margin: 0.25rem 0 0;
+}
+
+.library-header h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+}
+
+.movie {
+  background: url(../img/movie.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 80vh;
+}
+
+.movie-header {
+  background-color: #333;
+  opacity: 0.6;
+  width: 100%;
+  height: 97.5%;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.movie-header h1 {
+  font-size: 4rem;
+  margin-left: -36rem;
+  margin-top: 2rem;
+}
+
+.movie-header h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-left: 44rem;
+  margin-bottom: 3rem;
+}
+
+.sit {
+  background: url(../img/sit.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 80vh;
+}
+
+.sit-header {
+  background-color: #333;
+  opacity: 0.6;
+  width: 100%;
+  height: 97.5%;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sit-header h1 {
+  font-size: 4rem;
+  margin: 0.25rem 0 0;
+}
+
+.sit-header h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+}
+
+.relax {
+  background: url(../img/relax.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 80vh;
+}
+
+.relax-header {
+  background-color: #333;
+  opacity: 0.6;
+  width: 100%;
+  height: 97.5%;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.relax-header h1 {
+  font-size: 4rem;
+  margin: 0.25rem 0 0;
+}
+
+.relax-header h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+}
 /*# sourceMappingURL=main.css.map */
