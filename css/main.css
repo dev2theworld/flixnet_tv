@@ -676,6 +676,22 @@ footer .contact {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .bottom-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -738,6 +754,12 @@ footer .contact {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .bottom-wrapper h2 {
+    font-size: 1.2rem;
+  }
+  .bottom-wrapper p {
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
