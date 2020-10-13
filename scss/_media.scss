@@ -84,6 +84,25 @@
       justify-content: center;
       text-align: center;
     }
+
+    &-boxes {
+      display: flex;
+      flex-direction: column;
+      
+      &-single {
+        min-width: 275%;
+      }
+    }  
+  }
+
+  .about {
+
+    &-header {
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
   }
 }
 
@@ -109,18 +128,72 @@
     height: 410px;   
   }
 
-  .bottom-boxes {
-    display: flex;
-    flex-direction: column;
+  .bottom {
 
-    &-single {
-      width: 95%;
-    }
+    &-boxes {
+      display: flex;
+      flex-direction: column;
+      
+        &-single {
+          min-width: 120%;
+      }
+    } 
   }
 
   .footer {
     display: flex;
     flex-direction: column;
+  }
+
+  .about {
+    height: auto;
+
+    &-header {
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      i.fas {
+        font-size: 5rem;
+      }
+    }
+  }
+
+  .slides {
+
+    &-header {
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .bottom {
+
+    &-wrapper {
+
+      span {
+        margin-bottom: -3rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
   }
 }
 
@@ -154,9 +227,27 @@
     flex-direction: column;
   }
 
+  .slides {
+
+    &-header {
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  }
+
   .bottom {
 
     &-wrapper {
+
+      h1 {
+        font-size: 1.5rem;
+      }
 
       h2 {
         font-size: 1.2rem;
