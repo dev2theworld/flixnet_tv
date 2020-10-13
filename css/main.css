@@ -612,29 +612,33 @@ footer .contact {
 }
 
 @media (max-width: 1366px) {
-  .top {
-    max-width: 1100px;
-  }
   .top-header {
     margin-left: 500px;
   }
   .top-header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .top-header p {
     font-size: 1.2rem;
   }
+  .offer-box:hover {
+    height: 280px;
+  }
 }
 
 @media (max-width: 1200px) {
-  .top {
-    max-width: 1100px;
-  }
   .top-header {
     margin-left: 400px;
   }
+  .top-header h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
   .top-header p {
     font-size: 1.1rem;
+  }
+  .offer-box:hover {
+    height: 290px;
   }
 }
 
@@ -646,16 +650,16 @@ footer .contact {
         grid-template-columns: repeat(2, 1fr);
   }
   .top {
-    max-width: 800px;
+    text-align: center;
+    padding: 0;
+    min-height: 0;
   }
   .top-header {
     margin-left: 0;
+    height: 100%;
   }
-  .top-header h1 {
-    font-size: 1.5rem;
-  }
-  .top-header p {
-    font-size: 1rem;
+  .offer-box:hover {
+    height: 360px;
   }
   .middle {
     display: -ms-grid;
@@ -682,15 +686,12 @@ footer .contact {
         grid-template-columns: 1fr;
     gap: 0;
   }
-  .top {
-    max-width: 600px;
-    min-height: 0;
+  .top-header {
+    margin-top: 0;
+    height: 100%;
   }
-  .top-header h1 {
-    display: none;
-  }
-  .top-header p {
-    display: none;
+  .offer-box:hover {
+    height: 410px;
   }
   .bottom-boxes {
     display: -webkit-box;
@@ -716,6 +717,19 @@ footer .contact {
 }
 
 @media (max-width: 568px) {
+  .top-header h1 {
+    font-size: 1.5rem;
+  }
+  .top-header p {
+    font-size: 1rem;
+  }
+  .top-header a {
+    font-size: 0.8rem;
+    width: 80px;
+  }
+  .offer-box:hover {
+    height: 510px;
+  }
   .middle {
     display: -webkit-box;
     display: -ms-flexbox;

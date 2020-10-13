@@ -1,13 +1,12 @@
 @media (max-width: 1366px) {
 
   .top {
-    max-width: 1100px;
 
     &-header {
       margin-left: 500px;
 
       h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
       }
 
       p {
@@ -15,20 +14,32 @@
       }
     }
   }
+
+  .offer-box:hover {
+    height: 280px;   
+  }
 }
 
 @media (max-width: 1200px) {
   
   .top {
-    max-width: 1100px;
 
     &-header {
       margin-left: 400px;
+
+      h1 {
+        font-size: 2rem;
+        margin-top: 0;
+      }
 
       p {
         font-size: 1.1rem;
       }
     }
+  }
+
+  .offer-box:hover {
+    height: 290px;   
   }
 }
 
@@ -43,19 +54,18 @@
   }
 
   .top {
-    max-width: 800px;
+    text-align: center;
+    padding: 0;
+    min-height: 0;
 
     &-header {
       margin-left: 0;
-      
-      h1 {
-        font-size: 1.5rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
+      height: 100%;
     }
+  }
+
+  .offer-box:hover {
+    height: 360px;   
   }
 
   .middle {
@@ -80,19 +90,15 @@
   }
 
   .top {
-    max-width: 600px;
-    min-height: 0;
 
     &-header {
-
-      h1 {
-        display: none;
-      }
-
-      p {
-        display: none;
-      }
+      margin-top: 0;
+      height: 100%;
     }
+  }
+
+  .offer-box:hover {
+    height: 410px;   
   }
 
   .bottom-boxes {
@@ -111,6 +117,29 @@
 }
 
 @media (max-width: 568px) {
+
+  .top {
+
+    &-header {
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      a {
+        font-size: 0.8rem;
+        width: 80px;
+      }
+    }
+  }
+
+  .offer-box:hover {
+    height: 510px;   
+  }
   
   .middle {
     display: flex;
