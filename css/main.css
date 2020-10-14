@@ -771,6 +771,25 @@ footer .contact {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  #contact {
+    font-size: 1.8rem;
+  }
+  .contact {
+    margin-top: 10rem;
+    padding-bottom: 16rem;
+  }
+  .contact .adress {
+    margin-top: 6rem;
+  }
+  .contact i.fas {
+    margin-top: 2rem;
+  }
+  .contact .form h3 {
+    margin: 3rem 0;
+  }
+  .contact .form p {
+    margin-top: 3rem;
+  }
   .about {
     height: auto;
   }

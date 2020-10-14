@@ -189,6 +189,34 @@
     flex-direction: column;
   }
 
+  #contact {
+    font-size: 1.8rem;
+  }
+
+  .contact {
+    margin-top: 10rem;
+    padding-bottom: 16rem;
+
+    .adress {
+      margin-top: 6rem;
+    }
+
+    i.fas {
+      margin-top: 2rem;
+    }
+
+    .form {
+
+      h3 {
+        margin: 3rem 0;
+      }
+
+      p {
+        margin-top: 3rem;
+      }
+    }
+  }
+
   .about {
     height: auto;
 
