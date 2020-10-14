@@ -150,7 +150,7 @@
       flex-direction: column;
       
       &-single {
-        min-width: 275%;
+        width: 90%;
       }
     }  
   }
@@ -263,18 +263,6 @@
         }
       }
     }
-  }
-
-  .bottom {
-
-    &-boxes {
-      display: flex;
-      flex-direction: column;
-      
-        &-single {
-          min-width: 120%;
-      }
-    } 
   }
 
   .footer {

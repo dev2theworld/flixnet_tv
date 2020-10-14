@@ -744,7 +744,7 @@ footer .contact {
             flex-direction: column;
   }
   .bottom-boxes-single {
-    min-width: 275%;
+    width: 90%;
   }
   .about-header h1 {
     font-size: 3rem;
@@ -831,18 +831,6 @@ footer .contact {
   }
   .buy-form-payment input {
     width: 60%;
-  }
-  .bottom-boxes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .bottom-boxes-single {
-    min-width: 120%;
   }
   .footer {
     display: -webkit-box;
