@@ -189,6 +189,7 @@ i.fas.gold {
 
 .offer-full ul {
   list-style: none;
+  margin-left: -2.7rem;
   margin-bottom: 2rem;
 }
 
@@ -637,6 +638,12 @@ footer .contact {
   .top-header p {
     font-size: 1.1rem;
   }
+  .offer {
+    width: 100%;
+  }
+  .offer-full ul li {
+    width: 200px;
+  }
   .offer-box:hover {
     height: 290px;
   }
@@ -657,6 +664,12 @@ footer .contact {
   .top-header {
     margin-left: 0;
     height: 100%;
+  }
+  .offer-full .maximum-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
   }
   .offer-box:hover {
     height: 360px;
@@ -720,6 +733,19 @@ footer .contact {
   .top-header {
     margin-top: 0;
     height: 100%;
+  }
+  .offer-full ul li {
+    width: 50%;
+  }
+  .offer-full .premium-list,
+  .offer-full .maximum-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .offer-box:hover {
     height: 410px;
